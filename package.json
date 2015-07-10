@@ -1,0 +1,15 @@
+{
+  "name": "ts-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "foo.js",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "scripts": {
+    "good": "tsc -m commonjs good.ts && node good.js",
+    "bad": "tsc -m commonjs bad.ts && node bad.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
